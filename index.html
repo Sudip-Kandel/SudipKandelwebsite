@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+ 
+  <style>
+    /* Custom animations */
+    @keyframes slide-in {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .slide {
+      animation: slide-in 1s ease-out;
+    }
+
+    .fade {
+      animation: fade-in 1s ease-in;
+    }
+</style>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-gray-800 z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-small">𝑺𝒖𝒅𝒊𝒑 𝑲𝒂𝒏𝒅𝒆𝒍</h1>
+      <nav class="space-x-4">
+        <a href="#hero" class="hover:text-blue-400 nav-link">Home</a>
+        <a href="#about" class="hover:text-blue-400 nav-link">About</a>
+        <a href="#projects" class="hover:text-blue-400 nav-link">Projects</a>
+        <a href="#skills" class="hover:text-blue-400 nav-link">Skills</a>
+        <a href="#contact" class="hover:text-blue-400 nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <!-- Hero Section -->
+  
+  
+  <section id="hero" class="h-screen flex flex-col items-center justify-center bg-cover bg-center relative" style="background-image: url('https://source.unsplash.com/1600x900/?technology,programming');">
+    <div class="text-center mb-12">
+      <h1 class="text-5xl font-bold mb-4">Hi, I am Sudip Kandel</h1>
+      <h1 class="text-5xl font-bold mb-4">from Pokhara.</h1>
+      
+    </div>
+  
+    <!-- Circles Section -->
+    <div class="flex space-x-6 mt-8">
+      <!-- Circle 1 -->
+      <div class="w-40 h-40 flex items-center justify-center rounded-full bg-gradient-to-br from-green-400 via-yellow-300 to-pink-500 shadow-lg">
+        <p class="text-black text-center font-semibold">FrontEnd Developer</p>
+      </div>
+      <!-- Circle 2 -->
+      <div class="w-40 h-40 flex items-center justify-center rounded-full bg-gradient-to-br from-green-400 via-yellow-300 to-pink-500 shadow-lg">
+        <p class="text-black text-center font-semibold">Web Deginer</p>
+      </div>
+      <!-- Circle 3 -->
+      <div class="w-40 h-40 flex items-center justify-center rounded-full bg-gradient-to-br from-green-400 via-yellow-300 to-pink-500 shadow-lg">
+        <p class="text-black text-center font-semibold">Animator</p>
+      </div>
+    </div>
+  
+  
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Social Media Links</title>
+        <!-- Link to Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            .social-icons {
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+            }
+            .social-icons a {
+                text-decoration: none;
+                color: #00b098;
+                font-size: 24px;
+                transition: color 0.3s ease;
+            }
+            .social-icons a:hover {
+                color: rgb(181, 0, 0); /* Customize hover color */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100081063463996" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            
+            <a href="https://www.instagram.com/sudip_kadel?igsh=MWF5emRoNXY0ODJn&utm_source=ig_contact_invite" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </body>
+    <p>.</p>
+      <a href="#about" class="bg-purple-500 hover:bg-blue-700 text-white py-3 px-6 rounded">Discover More</a>
+    
+  </section>
+
+  
+
+  <!-- About Section -->
+  <section id="about" class="min-h-screen flex items-center py-16 bg-gray-800">
+    <div class="container mx-auto grid md:grid-cols-2 gap-8">
+      <div class="slide">
+        <h2 class="text-4xl font-bold mb-4">About Me</h2>
+        <p class="text-lg mb-4">Hello! I’m Sudip Kandel, a passionate software engineering student from Nepal with hands-on experience in frontend development. I enjoy crafting intuitive and visually appealing user interfaces while continuously expanding my knowledge in the ever-evolving tech world. I’m excited to grow as a developer and contribute to innovative projects!.</p>
+        <p class="text-lg">When I'm not coding, I enjoy hiking, reading, and exploring new coffee shops.</p>
+ <!-- Education Topics -->
+ <h3 class="text-2xl font-bold mt-8 mb-4">Education</h3>
+ <ul class="list-disc list-inside text-lg">
+   <li>10+2 - Pokhara Secondary School </li>
+   <li>Software Engineering - Pokhara University </li>
+   <li> Web Development</li>                                    
+<p>.                 ..</p>                        
+<p>.                 ..</p>                        
+<p>.                 ..</p>                        
+<p>.                 ..</p>                        
+                       
+
+        
+      </div>
+      <div class="flex justify-center">
+        <img src="image.jpg" alt="Profile" class="rounded-lg shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="min-h-screen py-16 bg-gray-900">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">Projects</h2>
+      <p>.</p>
+      <p>.</p>
+      <p>.</p>
+      <p>.</p>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg fade">
+          <h3 class="text-2xl font-bold mb-2">Project 1</h3>
+          <p>.</p>
+          <p>.</p>
+          <p class="text-lg mb-4">(A StudyHub platform)</p>
+          
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg fade">
+          <h3 class="text-2xl font-bold mb-2">Project 2</h3>
+          <p>.</p>
+          <p>.</p>
+          <p class="text-lg mb-4">(A NFT Marketplace)</p>
+          
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow-lg fade">
+          <h3 class="text-2xl font-bold mb-2">Project 3</h3>
+          <p>.</p>
+          <p>.</p>
+          <p class="text-lg mb-4">(A portfolio website showcasing my work)</p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="min-h-screen py-16 bg-gray-800">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">Skills</h2>
+      <p>.</p>
+      <p>.</p>
+      <p>.</p>
+      <p>.</p>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-900 p-6 rounded-lg shadow-lg fade">
+            
+          <h3 class="text-2xl font-bold mb-2">Frontend</h3>
+          <p>..    </p>
+          <p>..    </p>
+          
+          <p class="text-lg">(HTML, CSS, JavaScript, React, Tailwind CSS)</p>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-lg shadow-lg fade">
+          <h3 class="text-2xl font-bold mb-2">Web Development</h3>
+          <p>..    </p>
+          <p>..    </p>
+          <p class="text-lg">(Flask, Django, RESTful APIs)</p>
+          
+        </div>
+        <div class="bg-gray-900 p-6 rounded-lg shadow-lg fade">
+          <h3 class="text-2xl font-bold mb-2">Other Tools</h3>
+          <p>..    </p>
+          <p>..    </p>
+          <p class="text-lg">(Git, Docker, AWS, CI/CD)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="min-h-screen py-16 bg-gray-900">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">Contact Me</h2>
+      <p class="text-lg mb-4">Feel free to reach out to me for collaboration or any queries.</p>
+      <form class="max-w-lg mx-auto space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 rounded bg-gray-800 text-white">
+        <input type="email" placeholder="Your Email" class="w-full p-3 rounded bg-gray-800 text-white">
+        <textarea placeholder="Your Message" rows="5" class="w-full p-3 rounded bg-gray-800 text-white"></textarea>
+        <button type="submit" class="bg-purple-500 hover:bg-purple-700 text-white py-3 px-6 rounded">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 py-6 text-center">
+    <p class="text-sm">&copy; Thank You!</p>
+  </footer>
+
+  <script>
+    // Add smooth scroll and animation trigger
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth' });
+          target.classList.add('fade');
+          setTimeout(() => target.classList.remove('fade'), 1000);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
